@@ -5,7 +5,7 @@ var list = new List<char>{'A','B','C','D','E','F','G','H','I','J','K'};
 
 // Test implementations
 Profile(new PermutationsHeaps(), list, print: true, 100);
-//Profile(new PermutationsRecursive(),list, print: true);
+//Profile(new PermutationsRecursive(),list, print: true, 100);
 
 // Test Harness
 void Profile<T>(Permutations p, List<T> list, bool print = false, int lines = 0) {
